@@ -15,6 +15,22 @@
                     <div class="p-1"><strong>23k</strong> followers</div>
                     <div class="p-1"><strong>212</strong> following</div>
                 </div>
+                <div class="pt-2"> <strong>Page Name</strong></div>
+                <div>Here is a description of our page</div>
+                <div><a href="www.google.com">www.google.com</a></div>
+            </div>
+        </div>
+
+        <div class="row pt-5">
+            <div class="col-4">
+                <img class="w-100" style="max-height:350px " src="/svg/1.jpeg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="w-100" style="max-height:350px " src="/svg/2.jpg" alt="">
+            </div>
+            <div class="col-4">
+                <img class="w-100" style="max-height:350px " src="/svg/3.jpg" alt="">
+
             </div>
         </div>
 

@@ -8,4 +8,4 @@
 </p>
 
 
-##<p align="center"> Instagram inspired prototype completed in Laravel</p>
+<p align="center"> Instagram inspired prototype completed in Laravel</p>

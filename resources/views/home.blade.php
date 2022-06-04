@@ -15,9 +15,9 @@
                     <div class="p-1"><strong>23k</strong> followers</div>
                     <div class="p-1"><strong>212</strong> following</div>
                 </div>
-                <div class="pt-2"> <strong>Page Name</strong></div>
-                <div>Here is a description of our page</div>
-                <div><a href="www.google.com">www.google.com</a></div>
+                <div class="pt-2"> <strong>{{ $user->profile->title }}</strong></div>
+                <div>{{ $user->profile->description }}</div>
+                <div><a href="www.google.com">{{ $user->profile->url }}</a></div>
             </div>
         </div>
 

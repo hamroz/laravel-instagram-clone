@@ -15,7 +15,13 @@ class CreateProfilesTable extends Migration
     {
         Schema::create('profiles', function (Blueprint $table) {
             $table->id();
+            $table->unsignedBigInteger('user_id');
+            $table->string('title')->nullable(); //nullable means this field is not required during registration
+            $table->text('description')->nullable();
+            $table->string('url')->nullable();
             $table->timestamps();
+
+            $table->index('user_id');
         });
     }
 

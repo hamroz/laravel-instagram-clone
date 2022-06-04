@@ -8,7 +8,7 @@
             </div>
             <div class="col-9 pt-3">
                 <div>
-                    <h1>{{ Auth::user()->username }}</h1>
+                    <h1>{{ $user->username }}</h1>
                 </div>
                 <div class="d-flex">
                     <div class="p-1"><strong>153</strong> posts</div>

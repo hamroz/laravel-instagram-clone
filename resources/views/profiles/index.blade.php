@@ -7,8 +7,9 @@
                 <img class="rounded-circle" style="max-height:150px" src="/svg/rndm.jpg" alt="">
             </div>
             <div class="col-9 pt-3">
-                <div>
+                <div class="d-flex justify-content-between align-items-baseline">
                     <h1>{{ $user->username }}</h1>
+                    <a href="#">Add New Post</a>
                 </div>
                 <div class="d-flex">
                     <div class="p-1"><strong>153</strong> posts</div>
